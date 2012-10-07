@@ -1,0 +1,24 @@
+call pathogen#infect()
+syntax on
+filetype off
+call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
+
+set encoding=utf-8
+set modelines=0
+set autoindent
+set showmode
+set showcmd
+set hidden
+set visualbell
+set ruler
+set showbreak=↪
+set colorcolumn=+1
+
+set wildmenu
+set wildmode=list:longest
+set wildignore+=.git
+set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg
+set wildignore+=*.o,*.obj,*.exe,*.dll,*.manifest
+set wildignore+=*.DS_Store
+set wildignore+=*.pyc
