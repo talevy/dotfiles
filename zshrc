@@ -37,6 +37,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr/texbin
 
 alias v='vim'
+export TERM=screen-256color-bce
+
 export EDITOR='vim'
 export GREP_OPTIONS='--color=auto'
 export HISTSIZE=1000
