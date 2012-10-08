@@ -1,0 +1,13 @@
+syntax: glob
+
+.DS_Store
+*.pyc
+.netrwhist
+*.swp
+*.swo
+tags
+config/bcvi
+*.un~
+*~
+vim/tmp
+
