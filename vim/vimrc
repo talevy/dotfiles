@@ -5,6 +5,18 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 filetype plugin indent on
 
+let mapleader = ","
+
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<CR>
+nnoremap <tab> %
+vnoremap <tab> %
+
 set nocompatible
 set modelines=0
 set encoding=utf-8
@@ -50,7 +62,6 @@ colorscheme badwolf
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_cache_enabled = 1
 
-let mapleader = ","
 nnoremap <leader>t :NERDTreeToggle<CR>
 
 " }}}
