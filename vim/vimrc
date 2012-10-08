@@ -53,7 +53,7 @@ let g:Powerline_cache_enabled = 1
 let mapleader = ","
 
 " }}}
- augroup ft_python
+augroup ft_python
      au!
 
      au FileType python setlocal define=^\s*\\(def\\\\|class\\)
@@ -66,6 +66,15 @@ let mapleader = ","
      au FileType python inoremap <buffer> <c-b> """"""<left><left><left>
 augroup END
 
+
+augroup ft_java
+    au!
+    au FileType java setlocal foldmethod=marker
+    au FileType java setlocal foldmarker={,}
+    au FileType java setlocal tabstop=2
+    au FileType java setlocal softtabstop=2
+    au Filetype java setlocal shiftwidth=2 
+augroup END
 
 noremap H ^
 noremap L $
