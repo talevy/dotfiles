@@ -51,6 +51,7 @@ let g:Powerline_symbols = 'fancy'
 let g:Powerline_cache_enabled = 1
 
 let mapleader = ","
+nnoremap <leader>t :NERDTreeToggle<CR>
 
 " }}}
 augroup ft_python
@@ -85,8 +86,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-noremap  <F2> :NERDTreeToggle<cr>
-inoremap <F2> <esc>:NERDTreeToggle<cr>
 
 set backup                        " enable backups
 set noswapfile                    " It's 2012, Vim.
